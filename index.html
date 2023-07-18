@@ -131,14 +131,27 @@
 
       <section id="contactme">
         <h2>Contact Me</h2>
-        <form action="domething.html" method="DELETE">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name"/>
-
-          <label for="email">E-mail</label>
-          <input type="email" id="email" name="email"/>
-
-          <button type="submit">Send</button>
+        <form action="domething.html">
+          <p>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name"/>
+          </p>
+          <p>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email"/>
+          </p>
+          <p>
+            <label for="whycontacting">Why Contacting</label>
+            <select id="whycontacting" name="whycontacting">
+              <option value="jobinterview">Job Interview</option>
+              <option value="needcontractor">Need Contractor</option>
+            </select>
+          </p>
+          <p>
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments" rows="3"></textarea>
+          </p>
+            <button type="submit">Send</button>  
         </form>
       </section>
     </main>
